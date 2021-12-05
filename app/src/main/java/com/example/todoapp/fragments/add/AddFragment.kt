@@ -41,7 +41,7 @@ class AddFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if(item.itemId == R.id.menu_add){
+        if (item.itemId == R.id.menu_add) {
             insertDataToDb()
         }
         return super.onOptionsItemSelected(item)
@@ -53,7 +53,7 @@ class AddFragment : Fragment() {
         val mDescription = binding.descriptionEt.text.toString()
 
         val validation = mSharedViewModel.verifyDataFromUser(mTitle, mDescription)
-        if(validation){
+        if (validation) {
             // Insert Data to Database
             val newData = ToDoData(
                 0,
@@ -65,8 +65,9 @@ class AddFragment : Fragment() {
             Toast.makeText(requireContext(), "Successfully added!", Toast.LENGTH_SHORT).show()
             // Navigate Back
             findNavController().navigate(R.id.action_addFragment_to_listFragment)
-        }else{
-            Toast.makeText(requireContext(), "Please fill out all fields.", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(requireContext(), "Please fill out all fields.", Toast.LENGTH_SHORT)
+                .show()
         }
     }
 

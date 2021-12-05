@@ -6,7 +6,7 @@ import com.example.todoapp.data.models.ToDoData
 class ToDoDiffUtil(
     private val oldList: List<ToDoData>,
     private val newList: List<ToDoData>
-): DiffUtil.Callback() {
+) : DiffUtil.Callback() {
 
     override fun getOldListSize(): Int {
         return oldList.size

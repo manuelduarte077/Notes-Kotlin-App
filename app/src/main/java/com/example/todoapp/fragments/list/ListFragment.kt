@@ -63,7 +63,8 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
     private fun setupRecyclerview() {
         val recyclerView = binding.recyclerView
         recyclerView.adapter = adapter
-        recyclerView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+        recyclerView.layoutManager =
+            StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
 
         // Swipe to Delete
         swipeToDelete(recyclerView)
@@ -107,8 +108,12 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.menu_delete_all -> confirmRemoval()
-            R.id.menu_priority_high -> mToDoViewModel.sortByHighPriority.observe(viewLifecycleOwner, { adapter.setData(it) })
-            R.id.menu_priority_low -> mToDoViewModel.sortByLowPriority.observe(viewLifecycleOwner, { adapter.setData(it) })
+            R.id.menu_priority_high -> mToDoViewModel.sortByHighPriority.observe(
+                viewLifecycleOwner,
+                { adapter.setData(it) })
+            R.id.menu_priority_low -> mToDoViewModel.sortByLowPriority.observe(
+                viewLifecycleOwner,
+                { adapter.setData(it) })
         }
         return super.onOptionsItemSelected(item)
     }
