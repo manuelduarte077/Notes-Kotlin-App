@@ -15,7 +15,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/row_background"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/item_background"
             android:sendDataToUpdateFragment="@{toDoData}"
@@ -32,7 +32,7 @@
                 android:layout_marginEnd="16dp"
                 android:parsePriorityColor="@{toDoData.priority}"
                 app:cardBackgroundColor="@color/red"
-                app:cardCornerRadius="100dp"
+                app:cardCornerRadius="700dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
