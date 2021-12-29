@@ -9,11 +9,24 @@
         <entry key="..\:/WorkSpace/Kotlin/ToDo-App-Kotlin/app/src/main/res/layout/fragment_list.xml" value="0.20989583333333334" />
         <entry key="..\:/WorkSpace/Kotlin/ToDo-App-Kotlin/app/src/main/res/layout/fragment_update.xml" value="0.20989583333333334" />
         <entry key="..\:/WorkSpace/Kotlin/ToDo-App-Kotlin/app/src/main/res/layout/row_layout.xml" value="0.20989583333333334" />
-        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/layout/activity_main.xml" value="0.20471014492753623" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/custom_input.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/ic_add.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/ic_check.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/ic_no_data.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/ic_save.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/ic_search.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/drawable/item_background.xml" value="0.17222222222222222" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/layout/fragment_add.xml" value="0.1865740740740741" />
         <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/layout/fragment_list.xml" value="0.1865740740740741" />
         <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/layout/fragment_update.xml" value="0.1865740740740741" />
         <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/layout/row_layout.xml" value="0.25" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/menu/add_fragment_menu.xml" value="0.15787037037037038" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/menu/list_fragment_menu.xml" value="0.15787037037037038" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/menu/update_fragment_menu.xml" value="0.15787037037037038" />
+        <entry key="..\:/WorkSpace/Kotlin/ToDoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17222222222222222" />
       </map>
     </option>
   </component>
@@ -22,5 +35,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
   </component>
 </project>

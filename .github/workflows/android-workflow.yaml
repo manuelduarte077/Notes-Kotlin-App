@@ -16,8 +16,8 @@ jobs:
       - name: Print contents in current directory
         run: ls -la
 
-      - name: Run Unit Tests
-        run: ./gradlew testDebugUnitTest
+#      - name: Run Unit Tests
+#        run: ./gradlew testDebugUnitTest
 
       - name: Run instrumentation tests
         uses: reactivecircus/android-emulator-runner@v2
@@ -39,8 +39,8 @@ jobs:
   generate-apk:
     name: Generate apk
     runs-on: ubuntu-latest
-    needs:
-      - build-and-test
+#    needs:
+#      - build-and-test
     steps:
       - uses: actions/checkout@v1
 
