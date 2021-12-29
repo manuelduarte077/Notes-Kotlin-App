@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <variable
             name="toDoData"
             type="com.example.todoapp.data.models.ToDoData" />
@@ -15,13 +16,12 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/row_background"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@drawable/item_background"
             android:sendDataToUpdateFragment="@{toDoData}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
